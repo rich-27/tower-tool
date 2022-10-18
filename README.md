@@ -20,15 +20,15 @@ Initialise repo:
 
 ```sh
 git init
-git remote add origin https://github.com/rich-27/tower-tool.git
+git remote add origin <github page>
 git branch -M main
 ```
 
 Add credentials if not available:
 
 ```sh
-git config --global user.name
-git config --global user.email
+git config --global user.name <username>
+git config --global user.email <email>
 ```
 
 Make initial commit, then push:
